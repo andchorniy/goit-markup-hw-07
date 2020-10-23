@@ -39,6 +39,14 @@ body {
   overflow: hidden;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .page-header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -432,5 +440,109 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+}
+
+.our-features__features-list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-top: 94px;
+  margin-bottom: 94px;
+}
+
+.feature-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.feature-item__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.feature-item__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.feature-item__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.work-box__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.work-box__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 94px;
+}
+
+.work-box__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work-box__image {
+  display: block;
+}
+
+.work-box__wrapper {
+  position: relative;
+}
+
+.work-box__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
