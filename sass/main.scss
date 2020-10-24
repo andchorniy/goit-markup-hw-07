@@ -1,5 +1,6 @@
 @import './utils/variables';
 @import './base/base';
+@import './components/social-link';
 @import './components/page-header/page-header';
 @import './components/page-header/logo';
 @import './components/page-header/link-list';
@@ -8,3 +9,7 @@
 @import './components/modal/modal';
 @import './components/main-bloks/features';
 @import './components/main-bloks/work-list';
+@import './components/main-bloks/team/our-team';
+@import './components/main-bloks/team/teammate';
+@import './components/main-bloks/clients';
+@import './components/footer/page-footer';

@@ -1,0 +1,22 @@
+.our-team {
+  background-color: #f5f4fa;
+}
+.our-team__container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+  margin-bottom: 50px;
+}
+.our-team__team-list {
+  display: flex;
+}
+.our-team__card:not(:last-child) {
+  margin-right: 30px;
+}

@@ -1,0 +1,36 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.page-footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.page-footer__addres {
+  font-style: normal;
+  color: $primary-white-color;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.page-footer__contact {
+  width: 270px;
+  margin-right: 30px;
+}
+.page-footer-logo {
+  margin-bottom: 20px;
+}
+.page-footer__address-list {
+  margin-top: 9px;
+}
+.page-footer__address-item:not(:first-child) {
+  margin-top: 9px;
+}
+.page-footer__address-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.page-footer__social {
+  width: 270px;
+}
