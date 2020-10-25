@@ -1,16 +1,12 @@
 @import './utils/variables';
-
+@import './base/base';
 @import './components/social-link';
 @import './utils/placeholder';
 @import './components/page-header/page-header';
 @import './components/page-header/logo';
 @import './components/page-header/link-list';
 @import './components/page-header/contact-list';
-@import './components/hero/_hero';
-@import './components/modal/modal';
-@import './components/main-bloks/features';
-@import './components/main-bloks/work-list';
-@import './components/main-bloks/team/our-team';
-@import './components/main-bloks/team/teammate';
-@import './components/main-bloks/clients';
+
+@import './components/gallery/gallery';
+@import './components/gallery/project-card';
 @import './components/footer/page-footer';
