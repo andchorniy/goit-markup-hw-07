@@ -4,5 +4,7 @@ $accent-color: #2196f3;
 $icon-color: #afb1b8;
 $primary-white-color: #ffffff;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+$text-font: Roboto, sans-serif;
+$logo-font: Raleway, sans-serif;
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css');
